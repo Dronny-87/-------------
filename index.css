@@ -1,0 +1,335 @@
+/* Стили*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+span {
+  display: inline-block;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 84px;
+}
+
+.header-content .invite {
+  color: #171717;
+  max-width: 140px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.header-content .btn {
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 11px 28px;
+  border-radius: 4px;
+  border: none;
+}
+
+.header-content .btn .btn-text {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer {
+  background-color: #171717;
+}
+
+.footer-content span {
+  white-space: nowrap;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 96px;
+}
+.footer-content .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content .left .socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content .left .socials .instagram {
+  margin-right: 22px;
+}
+
+.footer-content .left .socials .facebook {
+  margin-right: 14px;
+}
+
+.footer-content .left .socials .share-btn {
+  color: #171717;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 7px 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+.footer-content .left .terms {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: 56px;
+}
+
+.footer-content .right {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.background-img {
+  background-image: url("assets/bg.png");
+  min-height: 320px;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .introduction {
+  padding: 80px 96px;
+  box-shadow: 0px 0px 50px 0px #0000001a;
+  border-radius: 12px;
+  position: relative;
+  background-color: white;
+  margin-top: -40px;
+}
+
+.main .introduction .title {
+  color: #171717;
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.main .introduction .description {
+  color: #71717a;
+  max-width: 630px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.main .introduction .avatar {
+  position: absolute;
+  top: -80px;
+  right: 96px;
+  border-radius: 12px;
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content .main-title .title2 {
+  color: #171717;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 80px;
+  margin-bottom: 56px;
+  white-space: nowrap;
+}
+
+.main-content .main-title .btn2 {
+  margin-top: 80px;
+  white-space: nowrap;
+}
+
+.main-title .btn2 .subscriptions {
+  background-color: #f4f4f5;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 16px;
+  color: #171717;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-right: 5px;
+}
+
+.main-title .btn2 .purchase {
+  background-color: #3b82f6;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+  gap: 32px 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  border: 1px;
+  opacity: 0px;
+  border: 1px solid #f4f4f5;
+  background-color: #ffffff;
+  padding: 32px 32px;
+}
+
+.card .package {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 10px;
+}
+
+.card #fire {
+  margin-left: 6px;
+}
+
+.card .conditions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.card .conditions .price {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #171717;
+  margin-right: 4px;
+}
+
+.card .conditions .duration {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #71717a;
+}
+
+.card p {
+  margin-bottom: 28px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #71717a;
+  width: 251px;
+  height: 64px;
+}
+
+.card .info-line {
+  display: flex;
+  margin-bottom: 36px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.card .info-line .channels {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.card .info-line .channels #channels {
+  margin-right: 8px;
+}
+
+.card .info-line .groups {
+  display: flex;
+  align-items: center;
+}
+
+.card .info-line .groups #groups {
+  margin-right: 8px;
+}
+
+.card button {
+  padding: 11px 89px 11px 88px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border-radius: 4px;
+  border: none;
+}
