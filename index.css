@@ -226,7 +226,7 @@ span {
 
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(305px , 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(305px, 1fr));
   grid-template-rows: ;
   gap: 32px 20px;
   margin-bottom: 120px;
@@ -342,12 +342,12 @@ span {
   border: none;
 }
 
- @media screen and (max-width: 1110px) {
+@media screen and (max-width: 1110px) {
   .main .introduction .title {
-    font-size: 32px;
+    font-size: 40px;
   }
   .main .introduction .description {
-    font-size: 14px;
+    font-size: 18px;
   }
   .main .introduction .avatar {
     width: 220px;
@@ -355,15 +355,42 @@ span {
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 830px) {
   .main .introduction .title {
     font-size: 32px;
   }
   .main .introduction .description {
-    font-size: 14px;
+    font-size: 16px;
   }
   .main .introduction .avatar {
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main .introduction .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 18px;
+    margin-bottom: 0px;
+
+  }
+  .main .introduction .description {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .main .introduction .avatar {
+    width: 72px;
+    height: 72px;
+    top: -40px;
+    right: 152px;
+  }
+
+  .main .introduction {
+    padding: 44px 24px 58px 24px;
+    margin-top: -180px;
   }
 }
