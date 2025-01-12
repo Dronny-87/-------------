@@ -342,7 +342,7 @@ span {
   border: none;
 }
 
- @media only screen and (max-width: 1110px) {
+ @media screen and (max-width: 1110px) {
   .main .introduction .title {
     font-size: 32px;
   }
@@ -355,7 +355,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 340px) {
+@media screen and (max-width: 340px) {
   .main .introduction .title {
     font-size: 32px;
   }
