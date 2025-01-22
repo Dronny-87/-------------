@@ -176,12 +176,13 @@ span {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   margin-top: 80px;
-  margin-bottom: 56px;
+  margin-bottom: 45px;
   white-space: nowrap;
 }
 
 .main-content .main-title .btn2 {
-  margin-top: 80px;
+  margin-top: 86px;
+  margin-bottom: 51px;
   white-space: nowrap;
 }
 
@@ -392,5 +393,22 @@ span {
   .main .introduction {
     padding: 44px 24px 58px 24px;
     margin-top: -180px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .main .main-content .main-title {
+    display: inline-block
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main .main-content .main-title .title2 {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+
+  .main .main-content .main-title .btn2 {
+    margin-top: 100px;
   }
 }
