@@ -343,6 +343,43 @@ span {
   border: none;
 }
 
+@media screen and (max-width: 1510px) {
+  .header .header-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .header .header-content .invite {
+    margin-right: 101px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .header .header-content .invite {
+    font-size: 16px;
+  }
+  .header .header-content .btn .btn-text {
+    content: "Login with";
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .main .introduction {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .main .introduction .avatar {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+
 @media screen and (max-width: 1110px) {
   .main .introduction .title {
     font-size: 40px;
@@ -356,7 +393,7 @@ span {
   }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 935px) {
   .main .introduction .title {
     font-size: 32px;
   }
@@ -387,7 +424,7 @@ span {
     width: 72px;
     height: 72px;
     top: -40px;
-    right: 152px;
+    right: 130px;
   }
 
   .main .introduction {
@@ -398,17 +435,42 @@ span {
 
 @media screen and (max-width: 760px) {
   .main .main-content .main-title {
-    display: inline-block
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
   }
   
   .main .main-content .main-title .title2 {
     font-size: 32px;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
   }
 
   .main .main-content .main-title .btn2 {
-    margin-top: 100px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+  .main .main-content .card-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
   }
 }
+
